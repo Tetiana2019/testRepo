@@ -4,43 +4,388 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,800,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
     <header class="header">
-        <div class="conteiner">
-            <nav class="heder__nav">
-                <div class="header__logo"></div>
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__logo">
+                    <div class="logo">
+                    <img src="img/logo.png" alt="Dart">
+                    </div>
+                    <div class="logo__text">
+                    <p>Dart</p>
+                    <p class="sm">service manager</p>
+                </div>
+                </div>
+                <div class="header__Wrap">
                     <ul class="header__list">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Extension</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Help</a></li>
                     </ul>
-                    <a href="" class="header__signUp"></a>
+                    <a href="" class="header__signUp">sign up</a>
+                </div>
+                    <div class="header__burger">
+                        <span class="header__line_top"></span>
+                        <span class="header__line_middle"></span>
+                        <span class="header__line_botton"></span>
+                    </div>
             </nav>
             <div class="header__content">
                 <div class="header__text">
-                    <h1>lorem Ipsum Dolor sit amet</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
+                    <h1 class="header__title">lorem Ipsum Dolor sit amet</h1>
+                    <p class="defaultSubtitle__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
                     <div class="header__btns">
                         <a href="" class="header__btn">Buy now</a>
                         <a href="" class="header__btn">Try for free</a>
                     </div>
                 </div>
                 <div class="header__video">
-                     <video src="videoplayback.mp4" 
-                     controls></video>
+                <div class="header__overlay">
+              <div class="btn">
+                <i class="material-icons">play_arrow</i>
+               </div>
+              <p>Watch the video</p>
+            </div>
+                <video 
+                    src="videoplayback.mp4" 
+                    muted
+                    loop ></video>
                 </div>
-                <div class="VideoBg">
-                    <img src="img/video_bg.png" alt="">
-                </div>
-                <a href="#header" class="video__btn"
-          ><i class="fa fa-chevron-up"></i>
             </div>
         </div>
     </header>
-    
+    <section class="tools">
+        <div class="container">
+          <div class="tools__content">
+            <h2 class="tools__title">Easy & Useful</h2>
+            <p class="tools__subtitle_1">Project Management Tool</p>
+            <p class="tools__subtitle_2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            </p>
+          </div>
+            <div class="tools__items">
+            <div class="tools__item">
+              <img class="tools__pic" src="img/1.png" alt="" />
+              <h5 class="tools__item_title">Title Goes Here</h5>
+              <p class="tools__item_subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="tools__item">
+              <img class="tools__pic" src="img/2.png" alt="" />
+              <h5 class="tools__item_title">Title Goes Here</h5>
+              <p class="tools__item_subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="tools__item">
+              <img class="tools__pic" src="img/3.png" alt="" />
+              <h5 class="tools__item_title">Title Goes Here</h5>
+              <p class="tools__item_subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <a href="" class="tools__btn">Get started</a>
+        </div>
+      </section>
+     
+      <section class="blocks">
+        <div class="block__items">
+          <div class="block__item item_1">
+            <div class="block__item_logo">
+              <img class="block__item_logo_pic" src="img/item1.png" alt="" />
+            </div>
+            <div class="block__item_text">
+              <p>12000+ Business</p>
+            </div>
+          </div>
+  
+          <div class="block__item item_2">
+            <div class="block__item_logo">
+              <img
+                class="block__item_logo_pic"
+                src="img/item2.png"
+                alt=""
+              />
+            </div>
+            <div class="block__item_text">
+              <p>60000+ Downloads</p>
+            </div>
+          </div>
+  
+          <div class="block__item item_3">
+            <div class="block__item_logo">
+              <img class="block__item_logo_pic" src="img/item3.png" alt="" />
+            </div>
+            <div class="block__item_text">
+              <p>30000+ <br> Free Installs</p>
+            </div>
+          </div>
+  
+          <div class="block__item item_4">
+            <div class="block__item_logo">
+              <img
+                class="block__item_logo_pic"
+                src="img/item4.png"
+                alt=""
+              />
+            </div>
+            <div class="block__item_text">
+              <p>40000+ <br> Pro Users</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+           <div class="services__header">
+          <h2>Services</h2>
+          <p class="subTitle__services">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+        </div>
+          <div class="services__accord">
+            <div class="services__item">
+              <div class="services__title">
+                <i class="material-icons">trending_up</i>
+                <h6>Statistics</h6>
+                <div class="services__arrow"></div>
+              </div>
+              <div class="services__text active">
+                <div class="services__pic">
+                  <img src="img/accord_pic.png" class="pic" alt="" />
+                </div>
+                <div class="services__content">
+                  <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  </p>
+                  <p class>
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__title">
+                <i class="material-icons">local_post_office</i>
+                <h6>Inbox</h6>
+                <div class="services__arrow"></div>
+              </div>
+              <div class="services__text">
+                <div class="services__pic">
+                  <img src="" alt="" />
+                </div>
+                <div class="services__content">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+                    voluptatem unde quibusdam sit aut voluptatibus eligendi ipsa
+                    est quas aspernatur.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ipsum id rem suscipit dolorum minus! Illo iusto temporibus
+                    asperiores labore non odit quasi reiciendis culpa consequuntur
+                    at rem praesentium sed id, nostrum perspiciatis! Veritatis
+                    unde facere, sed porro voluptatem nobis dolor aut, delectus,
+                    hic ducimus sequi qui sint aperiam rerum ipsam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="services__item">
+                <div class="services__title">
+                  <i class="material-icons">people</i>
+                  <h6>Team</h6>
+                  <div class="services__arrow"></div>
+                </div>
+                <div class="services__text">
+                  <div class="services__pic">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="services__content">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+                      voluptatem unde quibusdam sit aut voluptatibus eligendi ipsa
+                      est quas aspernatur.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ipsum id rem suscipit dolorum minus! Illo iusto temporibus
+                      asperiores labore non odit quasi reiciendis culpa consequuntur
+                      at rem praesentium sed id, nostrum perspiciatis! Veritatis
+                      unde facere, sed porro voluptatem nobis dolor aut, delectus,
+                      hic ducimus sequi qui sint aperiam rerum ipsam!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="services__title">
+                  <i class="material-icons">settings</i>
+                  <h6>Settings</h6>
+                  <div class="services__arrow"></div>
+                </div>
+                <div class="services__text">
+                  <div class="services__pic">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="services__content">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+                      voluptatem unde quibusdam sit aut voluptatibus eligendi ipsa
+                      est quas aspernatur.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ipsum id rem suscipit dolorum minus! Illo iusto temporibus
+                      asperiores labore non odit quasi reiciendis culpa consequuntur
+                      at rem praesentium sed id, nostrum perspiciatis! Veritatis
+                      unde facere, sed porro voluptatem nobis dolor aut, delectus,
+                      hic ducimus sequi qui sint aperiam rerum ipsam!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="services__title">
+                  <i class="material-icons">wifi</i>
+                  <h6>Feed</h6>
+                  <div class="services__arrow"></div>
+                </div>
+                <div class="services__text">
+                  <div class="services__pic">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="services__content">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+                      voluptatem unde quibusdam sit aut voluptatibus eligendi ipsa
+                      est quas aspernatur.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Ipsum id rem suscipit dolorum minus! Illo iusto temporibus
+                      asperiores labore non odit quasi reiciendis culpa consequuntur
+                      at rem praesentium sed id, nostrum perspiciatis! Veritatis
+                      unde facere, sed porro voluptatem nobis dolor aut, delectus,
+                      hic ducimus sequi qui sint aperiam rerum ipsam!
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+          <div class="container">
+              <div class="about__items">
+                  <div class="about__item">
+                  <h2 class="defaultTitle about__title">What our customers
+                    have to say about us.</h2>
+                  <p class="defaultSubtitle about__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  <div class="about__btn">Get started</div>
+              </div>
+              <div class="about__item">
+                   <div class="about__person1">
+                    <i class="material-icons">expand_less</i>
+                  <div class="about__content1">
+                    <div class="about__pic">
+                      <img src="img/about_pic1.png" class="person__pic" alt="">
+                  </div>
+                  <div class="about__person_text">
+                      <h6>John Doe</h6>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                  </div>
+                </div>
+                </div>
+                <div class="about__person2">
+                    <div class="about__content2">
+                        <div class="about__pic">
+                        <img src="img/about_pic2.png" class="person__pic" alt="">
+                    </div>
+                    <div class="about__person_text">
+                        <h6>Khalessi</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                    </div>
+                </div>
+                    <i class="material-icons">expand_more</i>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="team">
+          <div class="conteiner">
+            <div class="team__header">
+                <h2 class="title__team">Our Team</h2>
+                <p class="subTitle__team">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              </div>
+              <div class="team__items">
+                  <div class="team__item">
+                  <div class="team__pic1">
+                    <img src="img/img (1).png" alt="" class="img__pic">
+                </div>
+                <div class="team__text">
+                    <h2 class="team__text_header"></h2>
+                    <p class="team__text_content"></p>
+                </div>
+                </div>
+                <div class="team__item_test">
+                    <div class="team__pic1">
+                      <img src="img/img (2).png" alt="" class="img__pic">
+                  </div>
+                  <div class="team__text">
+                      <div class="tem__text"></div>
+                      <h2 class="team__text_header">Sophie Turner</h2>
+                      <p class="team__text_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="team__item">
+                    <div class="team__pic1">
+                      <img src="img/img (3).png" alt="" class="img__pic">
+                  </div>
+                  <div class="team__text">
+                      <h2 class="team__text_header"></h2>
+                      <p class="team__text_content"></p>
+                  </div>
+                  </div>
+             </div>
+        <div class="team__socials">
+            <a href="#" class="team__social"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="#" class="team__social"><i class="fa fa-facebook"></i></a>
+
+          <a href="#" class="team__social">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="#" class="team__social"><i class="fa fa-dribbble"></i></a>
+          <a href="#" class="team__social"><i class="fa fa-behance"></i></a>
+        </div>
+         </div>
+      </section>
 </body>
 </html>
