@@ -331,7 +331,6 @@ h1 {
   max-width: 10px;
   min-height: 10px;
 }
-
 .block__item_text {
   margin: 10px;
   max-width: 95px;
@@ -340,7 +339,7 @@ h1 {
   font-weight: 800;
 }
 .services {
-  padding: 50px 0;
+  padding: 100px 0;
   color: #061e37;
 }
 .services__header {
@@ -358,6 +357,7 @@ h1 {
   color: #b0bec5;
   font-weight: 400;
   margin: auto;
+  margin-top: 30px;
 }
 .services__accord {
   max-width: 800px;
