@@ -66,6 +66,16 @@ body {
   width: 100%;
   max-width: 700px;
 }
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 .header__nav ul {
   display: flex;
   align-items: center;
@@ -385,7 +395,7 @@ h1 {
 }
 .services__arrow {
   border: 10px solid transparent;
-  border-top-color: red;
+  border-top-color: #061e37;
   margin-left: auto;
 }
 .services__text {
