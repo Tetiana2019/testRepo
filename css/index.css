@@ -409,6 +409,7 @@ body {
   border: 10px solid transparent;
   border-top-color: #061e37;
   margin-left: auto;
+  transform: translateY(5px);
 }
 .services__text {
   display: none;
