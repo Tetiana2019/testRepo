@@ -57,3 +57,31 @@
       }
     }
   }
+
+  .card {
+    .card__item {
+      width: 30%;
+      height: 500px;
+      margin: 0 auto;
+      background: #fff;
+      .card__title {
+        padding: 50px 10px;
+        background: red;
+        position: relative;
+        overflow: hidden;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -17px;
+          transform: rotate(-5deg);
+          left: 0;
+          width: 110%;
+          height: 30px;
+          background: #fff;
+        }
+      }
+      .card__content {
+        padding: 20px;
+      }
+    }
+  }
